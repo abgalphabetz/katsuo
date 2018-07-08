@@ -1,5 +1,6 @@
 package kata.p99
 
+import org.junit.jupiter.api.Test
 import org.junit.jupiter.api.fail
 
 class MultiwayTreeTests {
@@ -32,18 +33,21 @@ class MultiwayTreeTests {
 
      * Define the syntax of the string and write a predicate tree(String,Tree) to construct the Tree when the String is given. Work with atoms (instead of strings). Make your predicate work in both directions.
      */
+    @Test
     fun `test istree`(): Unit = fail("IMPLEMENT ME!!!")
 
     /*
      * P71 (*) Determine the internal path length of a tree
      * We define the internal path length of a multiway tree as the total sum of the path lengths from the root to all nodes of the tree. By this definition, the tree in the figure of problem P70 has an internal path length of 9. Write a predicate ipl(Tree,IPL) for the flow pattern (+,-).
      */
+    @Test
     fun `test internal path length`(): Unit = fail("IMPLEMENT ME!!!")
 
     /*
      * P72 (*) Construct the bottom-up order sequence of the tree nodes
      * Write a predicate bottom_up(Tree,Seq) which constructs the bottom-up sequence of the nodes of the multiway tree Tree. Seq should be a Prolog list. What happens if you run your predicate backwords?
      */
+    @Test
     fun `test bottom up order tree nodes`(): Unit = fail("IMPLEMENT ME!!!")
 
     /*
@@ -59,5 +63,6 @@ class MultiwayTreeTests {
      * LTL = ['(', a, '(', b, c, ')', ')']
      * As a second, even more interesting exercise try to rewrite tree_ltl/2 in a way that the inverse conversion is also possible: Given the list LTL, construct the Prolog tree T. Use difference lists.
      */
+    @Test
     fun `test lisp like tree representation`(): Unit = fail("IMPLEMENT ME!!!")
 }
